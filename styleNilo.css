@@ -40,13 +40,23 @@ body {
     margin: 0%;
     background-color: #1F1F1F;
 }
+#recetas p{
+    color: white;
+}
 
 #sec1 h1 {
+    color: #AF9028;
     font-size: 1cm;
     text-align: center;
     font-weight: bold
 }
+#recetas {
+    color: #AF9028;
 
+}
+#recetas h2{
+    text-align: center;
+}
 .foto1 {
     height: 500px;
 }
