@@ -12,6 +12,7 @@ header {
 .containerheader h1 {
     color: #AF9028;
     height: 50px;
+    font-size: 1cm;
     padding-left: 145px;
 }
 
@@ -19,6 +20,8 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding-left: 15px;
+    padding-right: 15px;
 }
 
 .containerheader a {
@@ -40,7 +43,8 @@ body {
     margin: 0%;
     background-color: #1F1F1F;
 }
-#recetas p{
+
+#recetas p {
     color: white;
 }
 
@@ -48,21 +52,74 @@ body {
     color: #AF9028;
     font-size: 1cm;
     text-align: center;
-    font-weight: bold
+    font-weight: bold;
+    padding-top:  50px;
+    padding-bottom: 25px;
+}
+
+.relleno h2{
+    height: 2px;
+    color: #AF9028;
+    font-size: 35px;
+    text-align: center;
+    font-weight: bold;
+    padding-top: 50px;
+}
+.relleno p{
+    color: #AF9028;
+    font-size: 20px;
+    text-align:center;
+    font-weight: bold;
+    padding-top: 50px;
 }
 #recetas {
+    text-align: center;
+    width: 100%;
+    max-width: 1200px;
+    justify-content: center;
+    margin: auto;
     color: #AF9028;
+    display:flex;
+    padding-top: 30px;
+    padding-bottom: 50px;
 
 }
-#recetas h2{
+
+.card {
+    width: 100%;
+    margin: 20px;
+    border-radius: 6px;
+    background: #1F1F1F;
+    overflow: hidden;
+    cursor: default;
+    box-shadow: 0px 1px 10px;
+    transition: all 400ms ease;
+}
+
+.card:hover{
+    transform: translateX(-3%);
+}
+
+.card img {
+    width: 100%;
+    height: 210px;
+}
+
+.card .cardcontenido{
+    padding: 15px;
     text-align: center;
 }
+
+#recetas h2 {
+    text-align: center;
+}
+
 .foto1 {
-    height: 500px;
+    height: auto;
 }
 
 .carrousel {
-    display:flex;
+    display: flex;
     justify-content: center;
     height: 60vh;
 }
@@ -75,8 +132,13 @@ body {
     color: #AF9028;
 }
 
+
+
 .content-footer {
+    padding-top: 15px;
+    padding-bottom: 15px;
     background-color: #191919;
+
 }
 
 .foot {
@@ -84,6 +146,11 @@ body {
     text-decoration: none;
     text-align: center;
 }
+
+.foot p {
+    color: white;
+}
+
 
 
 
