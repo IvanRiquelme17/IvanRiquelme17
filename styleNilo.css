@@ -9,13 +9,6 @@ header {
 
 }
 
-.containerheader h1 {
-    color: #AF9028;
-    height: 50px;
-    font-size: 1cm;
-    padding-left: 145px;
-}
-
 .containerheader {
     display: flex;
     justify-content: space-between;
@@ -24,12 +17,21 @@ header {
     padding-right: 15px;
 }
 
-.containerheader a {
-    color: #AF9028;
-    text-decoration: none;
+.containerheader img {
+    height: 115px;
 }
 
+.containerheader h1 {
+    color: #AF9028;
+    height: 50px;
+    font-size: 1cm;
+    padding-left: 145px;
+}
+
+
 nav a {
+    color: #AF9028;
+    text-decoration: none;
     padding: 5px;
 }
 
@@ -53,11 +55,11 @@ body {
     font-size: 1cm;
     text-align: center;
     font-weight: bold;
-    padding-top:  50px;
+    padding-top: 50px;
     padding-bottom: 25px;
 }
 
-.relleno h2{
+.relleno h2 {
     height: 2px;
     color: #AF9028;
     font-size: 35px;
@@ -65,13 +67,15 @@ body {
     font-weight: bold;
     padding-top: 50px;
 }
-.relleno p{
+
+.relleno p {
     color: #AF9028;
     font-size: 20px;
-    text-align:center;
+    text-align: center;
     font-weight: bold;
     padding-top: 50px;
 }
+
 #recetas {
     text-align: center;
     width: 100%;
@@ -79,7 +83,7 @@ body {
     justify-content: center;
     margin: auto;
     color: #AF9028;
-    display:flex;
+    display: flex;
     padding-top: 30px;
     padding-bottom: 50px;
 
@@ -96,7 +100,7 @@ body {
     transition: all 400ms ease;
 }
 
-.card:hover{
+.card:hover {
     transform: translateX(-3%);
 }
 
@@ -105,7 +109,7 @@ body {
     height: 210px;
 }
 
-.card .cardcontenido{
+.card .cardcontenido {
     padding: 15px;
     text-align: center;
 }
@@ -131,8 +135,6 @@ body {
 .vertical p {
     color: #AF9028;
 }
-
-
 
 .content-footer {
     padding-top: 15px;
