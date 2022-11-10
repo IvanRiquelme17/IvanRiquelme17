@@ -4,8 +4,15 @@
     box-sizing: border-box;
 }
 
+body {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color: #1F1F1F;
+    text-align: center;
+}
+
 header {
     background-color: #191919;
+
 }
 
 .containerheader {
@@ -18,8 +25,6 @@ header {
 
 .containerheader img {
     height: 115px;
-    display: block
-    ;
 }
 
 .containerheader h1 {
@@ -28,6 +33,7 @@ header {
     font-size: 1cm;
     padding-left: 145px;
 }
+
 
 nav a {
     color: #AF9028;
@@ -44,46 +50,31 @@ body {
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     margin: 0%;
     background-color: #1F1F1F;
+    background: url(empleado.jpg) no-repeat fixed;
+    background-size: 100%;
 }
 
-.formulario {
-    height: auto;
-    width: 400px;
-    padding: 50px;
-    margin: auto;
-    margin-top: 100px;
-    margin-bottom: 100px;
-    background: #191919;
+
+.containerAboutUs {
+    color: black;
+    padding-top: 110px;
+    padding-bottom: 110px;
+    padding-left: 50px;
+    padding-right: 50px;
+    border: 0;
+    line-height: 37px;
+    display: block
+}
+
+.containerAboutUs h2 {
     color: #AF9028;
+    font-size: 30px;
+    font-weight: bold;
 }
 
-.formulario h3 {
-    font-size: 25px;
-    margin-bottom: 15px;
-}
-
-.form , textarea {
-    width: 100%;
-    background: #1F1F1F;
-    padding: 10px;
-    margin-bottom: 15px;
-    border: 1px solid;
-    font-size: 15px;
-    color: white;
-    box-shadow: 0px 1px 10px;
-}
-
-textarea{
-    height: 200px;
-}
-
-.boton{
- width: 100%;
- background:#1F1F1F;
- padding: 15px;
- color:#AF9028;
- margin: 15px 0;
- font-size: 15px;
+.containerAboutUs p {
+    font-size: 18px;
+    font-weight: bold;
 }
 
 .content-footer {
