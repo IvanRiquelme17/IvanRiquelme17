@@ -119,6 +119,8 @@ body {
 }
 
 .foto1 {
+    border-radius: 50px;
+    box-shadow: 0px 1px 10px #AF9028;
     height: auto;
 }
 
@@ -126,6 +128,31 @@ body {
     display: flex;
     justify-content: center;
     height: 60vh;
+}
+
+.boton {
+    position: absolute;
+    font-size: 57px;
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    border-radius: 50%;
+    background-color: white;
+    text-align: center;
+    font-weight: bold;
+    color: #AF9028;
+    box-shadow: 0px 1px 10px #AF9028;
+}
+
+.izquierda {
+    left: 20%;
+    top: 58%;
+
+}
+
+.derecha{
+    right: 20%;
+    top: 58%;
 }
 
 .logo {
@@ -150,7 +177,6 @@ body {
 }
 
 footer {
-    position: absolute;
     bottom: 0;
     width: 100%;
 }
@@ -159,6 +185,15 @@ footer {
     color: white;
 }
 
+.izquierda:hover{
+    cursor: pointer;
+    transform: translateX(-3%);
+}
+
+.derecha:hover{
+    cursor: pointer;
+    transform: translateX(3%);
+}
 
 
 
