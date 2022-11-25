@@ -1,4 +1,4 @@
-let foto = ['cookie.webp', 'cupcakes.webp', 'mag.webp', 'cake.webp'];
+let foto = ['muffins.webp', 'torta.webp', 'niidea.webp','go.webp'];
 let contador = 0;
 
 function funcionCarrousel() {
